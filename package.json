@@ -9,7 +9,10 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "test:prod": "ng test --configuration production",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "e2e": "ng e2e",
+    "deploy": "ng deploy --base-href=/youth-itute/",
+    "deploy:prod": "ng deploy --base-href=/youth-itute/ --configuration production"
   },
   "private": true,
   "dependencies": {
