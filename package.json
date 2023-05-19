@@ -11,8 +11,8 @@
     "test:prod": "ng test --configuration production",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng deploy --base-href=/youth-itute/",
-    "deploy:prod": "ng deploy --base-href=/youth-itute/ --configuration production"
+    "deploy": "ng deploy",
+    "deploy:prod": "ng deploy --configuration production"
   },
   "private": true,
   "dependencies": {
